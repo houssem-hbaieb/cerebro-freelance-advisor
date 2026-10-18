@@ -1,0 +1,19 @@
+# This repository contains two projects. Everything else in this folder (personal notes, editor settings,
+# scratch files) stays local: ignore it by default and list what belongs here.
+/*
+!/.gitignore
+!/README.md
+!/docs/
+!/agentic-freelance-advisor/
+!/freelance2/
+
+# Secrets and local environments, wherever they are (each project also has its own .gitignore)
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+dist/
