@@ -1,0 +1,17 @@
+node_modules/
+dist/
+
+# cerebro/ is a local archive of the original site. Only cerebro/_next/static/media is used (publicDir in
+# vite.config.js); everything else in it is an unused leftover of the archived site.
+cerebro/*
+!cerebro/_next/
+cerebro/_next/*
+!cerebro/_next/static/
+cerebro/_next/static/*
+!cerebro/_next/static/media/
+plausible.io/
+
+# Local scratch files that nothing refers to
+backblue.gif
+fade.gif
+New Document texte.txt
